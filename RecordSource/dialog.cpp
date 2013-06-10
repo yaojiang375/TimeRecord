@@ -13,6 +13,8 @@ Dialog::Dialog(QWidget *parent,globalvalue *global) :
     ui(new Ui::Dialog)
 {
     ui->setupUi(this);
+    ui->copyButton->hide();
+
 
 }
 
@@ -55,12 +57,23 @@ void Dialog::on_reset_clicked()
     midset re;
     re.read();
     QClipboard *clipboard = QApplication::clipboard();
-    clipboard->setText(re.displaytext());
-    ui->textEdit->setText(re.displaytext());
+    savedisplay = re.displaytext();
+    clipboard->setText(savedisplay);
+    ui->textEdit->setText(savedisplay);
+    ui->copyButton->show();
 
 }
 
 void Dialog::on_pushButton_2_clicked()
 {
     ui->textEdit->setText("");
+    ui->copyButton->hide();
+}
+
+void Dialog::on_copyButton_clicked()
+{
+    QClipboard *clipboard = QApplication::clipboard();
+    clipboard->setText(savedisplay);
+
+
 }

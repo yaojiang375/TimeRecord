@@ -1,0 +1,14 @@
+INPUT(
+./debug\main.o
+./debug\widget.o
+./debug\dialog.o
+./debug\setting.o
+./debug\readsetting.o
+./debug\wrong.o
+./debug\helper.o
+./debug\moc_widget.o
+./debug\moc_dialog.o
+./debug\moc_setting.o
+./debug\moc_wrong.o
+./debug\moc_helper.o
+);

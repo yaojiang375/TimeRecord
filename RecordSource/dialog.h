@@ -22,9 +22,12 @@ private slots:
 
     void on_pushButton_2_clicked();
 
+    void on_copyButton_clicked();
+
 private:
     Ui::Dialog *ui;
     QWidget *aparent;
+    QString savedisplay;
 };
 
 #endif // DIALOG_H

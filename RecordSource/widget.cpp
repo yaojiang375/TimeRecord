@@ -111,13 +111,10 @@ void Widget::on_open_clicked()
 
         if(global->sumFilename.length())
         {
-
-
             QString fast;
             fast= " start .//data//turn.xls    | start";
             fast+=global->sumFilename;
             system(fast.replace("/","\\").toAscii().data());
-           // qDebug()<<sumFilename.replace("/","\\").toAsc+ii().data();
         }
         else
         {

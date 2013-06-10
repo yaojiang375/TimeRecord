@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>460</width>
-    <height>411</height>
+    <width>640</width>
+    <height>480</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,8 +16,8 @@
   <widget class="QPushButton" name="pushButton_7">
    <property name="geometry">
     <rect>
-     <x>330</x>
-     <y>280</y>
+     <x>480</x>
+     <y>350</y>
      <width>75</width>
      <height>23</height>
     </rect>
@@ -29,8 +29,8 @@
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>330</x>
-     <y>350</y>
+     <x>480</x>
+     <y>420</y>
      <width>75</width>
      <height>23</height>
     </rect>
@@ -42,14 +42,14 @@
   <widget class="QToolBox" name="toolBox">
    <property name="geometry">
     <rect>
-     <x>30</x>
+     <x>50</x>
      <y>10</y>
      <width>261</width>
-     <height>401</height>
+     <height>461</height>
     </rect>
    </property>
    <property name="currentIndex">
-    <number>0</number>
+    <number>4</number>
    </property>
    <widget class="QWidget" name="page_3">
     <property name="geometry">
@@ -57,7 +57,7 @@
       <x>0</x>
       <y>0</y>
       <width>261</width>
-      <height>271</height>
+      <height>331</height>
      </rect>
     </property>
     <attribute name="label">
@@ -67,7 +67,7 @@
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>30</y>
+       <y>20</y>
        <width>211</width>
        <height>191</height>
       </rect>
@@ -76,8 +76,8 @@
     <widget class="QPushButton" name="pushButton_3">
      <property name="geometry">
       <rect>
-       <x>30</x>
-       <y>240</y>
+       <x>20</x>
+       <y>270</y>
        <width>71</width>
        <height>31</height>
       </rect>
@@ -89,8 +89,8 @@
     <widget class="QPushButton" name="pushButton_4">
      <property name="geometry">
       <rect>
-       <x>140</x>
-       <y>240</y>
+       <x>160</x>
+       <y>270</y>
        <width>71</width>
        <height>31</height>
       </rect>
@@ -134,7 +134,7 @@
       <x>0</x>
       <y>0</y>
       <width>261</width>
-      <height>271</height>
+      <height>331</height>
      </rect>
     </property>
     <attribute name="label">
@@ -144,7 +144,7 @@
      <property name="geometry">
       <rect>
        <x>50</x>
-       <y>50</y>
+       <y>110</y>
        <width>160</width>
        <height>70</height>
       </rect>
@@ -160,7 +160,7 @@
      <property name="geometry">
       <rect>
        <x>90</x>
-       <y>170</y>
+       <y>280</y>
        <width>75</width>
        <height>23</height>
       </rect>
@@ -189,7 +189,7 @@
       <x>0</x>
       <y>0</y>
       <width>261</width>
-      <height>271</height>
+      <height>331</height>
      </rect>
     </property>
     <attribute name="label">
@@ -199,7 +199,7 @@
      <property name="geometry">
       <rect>
        <x>50</x>
-       <y>30</y>
+       <y>90</y>
        <width>160</width>
        <height>70</height>
       </rect>
@@ -212,7 +212,7 @@
      <property name="geometry">
       <rect>
        <x>90</x>
-       <y>150</y>
+       <y>260</y>
        <width>75</width>
        <height>23</height>
       </rect>
@@ -235,78 +235,13 @@
      </property>
     </widget>
    </widget>
-   <widget class="QWidget" name="page">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>261</width>
-      <height>271</height>
-     </rect>
-    </property>
-    <attribute name="label">
-     <string>分类统计代号设置</string>
-    </attribute>
-    <widget class="QPushButton" name="save">
-     <property name="geometry">
-      <rect>
-       <x>30</x>
-       <y>260</y>
-       <width>75</width>
-       <height>23</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>保存</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="reSetting">
-     <property name="geometry">
-      <rect>
-       <x>150</x>
-       <y>260</y>
-       <width>75</width>
-       <height>23</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>重置</string>
-     </property>
-    </widget>
-    <widget class="QTextEdit" name="textEdit_2">
-     <property name="geometry">
-      <rect>
-       <x>30</x>
-       <y>20</y>
-       <width>201</width>
-       <height>221</height>
-      </rect>
-     </property>
-     <property name="autoFillBackground">
-      <bool>false</bool>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_2">
-     <property name="geometry">
-      <rect>
-       <x>30</x>
-       <y>-1</y>
-       <width>201</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
-   </widget>
    <widget class="QWidget" name="page_2">
     <property name="geometry">
      <rect>
       <x>0</x>
       <y>0</y>
       <width>261</width>
-      <height>271</height>
+      <height>331</height>
      </rect>
     </property>
     <attribute name="label">
@@ -373,7 +308,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>190</y>
+       <y>240</y>
        <width>75</width>
        <height>23</height>
       </rect>
@@ -386,7 +321,7 @@
      <property name="geometry">
       <rect>
        <x>150</x>
-       <y>190</y>
+       <y>240</y>
        <width>75</width>
        <height>23</height>
       </rect>
@@ -402,6 +337,71 @@
        <y>20</y>
        <width>161</width>
        <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>261</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <attribute name="label">
+     <string>分类统计代号设置</string>
+    </attribute>
+    <widget class="QPushButton" name="save">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>280</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>保存</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="reSetting">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>280</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>重置</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>20</y>
+       <width>201</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>0</y>
+       <width>201</width>
+       <height>21</height>
       </rect>
      </property>
      <property name="text">

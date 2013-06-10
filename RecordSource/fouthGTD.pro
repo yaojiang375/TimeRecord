@@ -17,7 +17,8 @@ SOURCES += main.cpp\
     dialog.cpp \
     setting.cpp \
     readsetting.cpp \
-    wrong.cpp
+    wrong.cpp \
+    helper.cpp
 
 HEADERS  += widget.h \
     dialog.h \
@@ -26,9 +27,11 @@ HEADERS  += widget.h \
     readsetting.h \
     gloable.h \
     wrong.h \
-    midset.h
+    midset.h \
+    helper.h
 
 FORMS    += widget.ui \
     dialog.ui \
     setting.ui \
-    wrong.ui
+    wrong.ui \
+    helper.ui
